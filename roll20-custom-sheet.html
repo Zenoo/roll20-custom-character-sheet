@@ -6,6 +6,8 @@
   <span class="sheet-tab sheet-tab3" style="line-height: 40px;">Compétences</span>
   <input type="radio" class="sheet-tab sheet-tab2" name="attr_core-tab" value="2" title="inv" />
   <span class="sheet-tab sheet-tab2" style="line-height: 40px;">Inventaire</span>
+  <input type="radio" class="sheet-tab sheet-tab4" name="attr_core-tab" value="4" title="spells" />
+  <span class="sheet-tab sheet-tab4" style="line-height: 40px;">Sorts</span>
   <img class="sheet-logo"
     src="https://raw.githubusercontent.com/Zenoo/roll20-custom-sheet/master/images/logo.png">
   <!-- End Tab setup -->
@@ -78,6 +80,17 @@
         <textarea class="inv" name="attr_item12"></textarea>
       </div>
     </div>
+  </div>
+  <div class="sheet-section-spells">
+    <!-- Spells Tab -->
+    <h3 class="ability-header">Sorts</h3>
+    <fieldset class="repeating_spells">
+      <button class="sheet-text-button" type='roll'
+        value='&{template:ability} {{name=@{ability}}} {{cost=@{cost}}} {{desc=@{abilitydesc}}}'></button>
+      <input type="text" class="spell-name" name="attr_spell" placeholder="Nom du sort" />
+      <input type="text" class="spell-cost" name="attr_cost" placeholder="Cout en mana" />
+      <textarea class="ability_description" name="attr_spelldesc" placeholder="Description"></textarea>
+    </fieldset>
   </div>
 
 
