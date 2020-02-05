@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.6](https://github.com/Zenoo/roll20-custom-character-sheet/compare/v0.0.5...v0.0.6) (2020-02-05)
+
+
+### Features
+
+* Added spells tab ([16ddad5](https://github.com/Zenoo/roll20-custom-character-sheet/commit/16ddad57b39a60d05ffcdeffb2acffe36fd4ff04))
+
 ### [0.0.5](https://github.com/Zenoo/roll20-custom-character-sheet/compare/v0.0.4...v0.0.5) (2020-02-05)
 
 

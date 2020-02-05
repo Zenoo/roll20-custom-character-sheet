@@ -1,6 +1,6 @@
 {
   "name": "roll20-custom-character-sheet",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Custom <a href=\"https://roll20.net/\">Roll20</a> Character Sheet Template.",
   "main": "test/test.html",
   "directories": {
