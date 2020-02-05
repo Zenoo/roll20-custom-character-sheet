@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/Zenoo/roll20-custom-character-sheet/compare/v0.0.4...v0.0.5) (2020-02-05)
+
+
+### Bug Fixes
+
+* Remove useless image ([11309eb](https://github.com/Zenoo/roll20-custom-character-sheet/commit/11309ebd29cfd60d8a0eaecc2276970be835a3b1))
+
 ### [0.0.4](https://github.com/Zenoo/roll20-custom-character-sheet/compare/v0.0.3...v0.0.4) (2020-02-05)
 
 
