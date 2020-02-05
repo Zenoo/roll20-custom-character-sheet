@@ -24,5 +24,8 @@
   "bugs": {
     "url": "https://github.com/Zenoo/roll20-custom-character-sheet/issues"
   },
-  "homepage": "https://github.com/Zenoo/roll20-custom-character-sheet#readme"
+  "homepage": "https://github.com/Zenoo/roll20-custom-character-sheet#readme",
+  "dependencies": {
+    "standard-version": "^7.1.0"
+  }
 }
