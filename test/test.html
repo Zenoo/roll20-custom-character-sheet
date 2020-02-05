@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Test</title>
+  <link rel="stylesheet" href="../roll20-custom-sheet.css">
+</head>
+
+<body>
+  <main class="charsheet">
+
+  </main>
+  <script>
+    fetch('../roll20-custom-sheet.html')
+      .then(response => response.text())
+      .then((data) => {
+        document.querySelector('.charsheet').innerHTML = data;
+        document.querySelector('rolltemplate').remove();
+
+        document.querySelectorAll('.charsheet *').forEach(element => {
+          if(element.classList.length){
+            element.classList.forEach(theClass => {
+              if(!new RegExp(['attr_', 'repeating_', '_roll', 'sheet-'].map(e => '^' + e).join("|")).test(theClass)){
+                element.classList.remove(theClass);
+                element.classList.add('sheet-' + theClass);
+              }
+            })
+          }
+        });
+      });
+  </script>
+</body>
+
+</html>
