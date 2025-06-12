@@ -26,6 +26,6 @@
   },
   "homepage": "https://github.com/Zenoo/roll20-custom-character-sheet#readme",
   "dependencies": {
-    "standard-version": "^7.1.0"
+    "standard-version": "^9.5.0"
   }
 }
